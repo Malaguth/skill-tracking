@@ -10,8 +10,8 @@ The supervisor will represent the Tech Lead, Product Owner, Scrum Master, and St
 ## The Product
 The product itself is based on the repository [roadmap.sh](https://roadmap.sh/) 
 
-### Features and Interactions
-- The first interaction will create the software structure and define how the project will be built.
-- The second interaction will develop the first characteristics of the platform and define the application design.
-- The third interaction will build a core feature of the skill-tracking representation.
-- The fourth interaction will store the result inside a database to be accessed later.
+### Features and Iteractions
+- The first iteraction will create the software structure and define how the project will be built.
+- The second iteraction will develop the first characteristics of the platform and define the application design.
+- The third iteraction will build a core feature of the skill-tracking representation.
+- The fourth iteraction will store the result inside a database to be accessed later.
