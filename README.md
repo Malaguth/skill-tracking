@@ -18,3 +18,11 @@ Product development is based on the process represented on [this custom roadmap]
 - The second iteration will develop the first characteristics of the platform and define the application design.
 - The third iteration will build a core feature of the skill-tracking representation.
 - The fourth iteration will store the result inside a database to be accessed later.
+
+# Thanks to all contributors
+ <a href = "https://github.com/malaguth/skill-tracking/graphs/contributors">
+   <img src = "https://contrib.rocks/image?repo=malaguth/skill-tracking"/>
+ </a>
+ 
+# License
+Have a look at the [license file](./LICENSE) for details
