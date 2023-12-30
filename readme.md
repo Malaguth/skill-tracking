@@ -2,6 +2,8 @@
 
 This repository aims to create an example of skill-tracking software made as a study exercise. 
 
+## Documentation
+This project documentation is available [here](./doc/readme.md)
 ## Agile Methodology
 This project is maintained using the Scrum method with two (2) weeks sprints. The developers and the supervisor do the Refinement, Planning, Review, and Retrospective.
 
