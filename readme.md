@@ -25,4 +25,4 @@ Product development is based on the process represented on [this custom roadmap]
  </a>
  
 # License
-Have a look at the [license file](./LICENSE) for details
+Have a look at the [license file](./license) for details
