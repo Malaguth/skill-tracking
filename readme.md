@@ -4,10 +4,13 @@ This repository aims to create an example of skill-tracking software made as a s
 
 ## Documentation
 This project documentation is available [here](./doc/readme.md)
+
 ## Agile Methodology
 This project is maintained using the Scrum method with two (2) weeks sprints. The developers and the supervisor do the Refinement, Planning, Review, and Retrospective.
 
 The supervisor will represent the Tech Lead, Product Owner, Scrum Master, and Stakeholder.
+
+[Know more about our team](./doc/team.md)
 
 ## The Product
 The product itself is inspired by the repository [roadmap.sh](https://roadmap.sh/) 
