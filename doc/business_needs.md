@@ -20,7 +20,6 @@ The inability to effectively track skills hampers user career development in sev
 
 - Reduced Engagement and Retention: Users who don't see a clear path for skill development and career progression are likely to feel undervalued and may seek opportunities elsewhere.
 
-
 ## Goals
 
 A software solution designed to address the skill-tracking problem in big companies should aim to achieve the following goals:
