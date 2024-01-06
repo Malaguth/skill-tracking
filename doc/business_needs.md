@@ -14,9 +14,9 @@ Impact on Career Development
 
 The inability to effectively track skills hampers user career development in several ways:
 
-- Lack of Personalized Learning Plans: Without clear visibility into an user's current skill set, it's challenging to create personalized learning plans that address gaps and foster growth.
+- Lack of Personalized Learning Plans: Without clear visibility into a user's current skill set, it's challenging to create personalized learning plans that address gaps and foster growth.
 
-- Missed Opportunities for Advancement: If management isn't aware of an user's full range of skills, they may overlook them for promotions or special projects that could advance their career.
+- Missed Opportunities for Advancement: If management isn't aware of a user's full range of skills, they may overlook them for promotions or special projects that could advance their career.
 
 - Reduced Engagement and Retention: Users who don't see a clear path for skill development and career progression are likely to feel undervalued and may seek opportunities elsewhere.
 
@@ -49,7 +49,7 @@ By achieving these goals, a skill-tracking software solution can help big compan
 
 ## Solution - Dynamic Roadmaps
 
-A dynamic roadmap-based solution could be an effective way to address the skill-tracking problem in big companies. This approach would involve creating visual representations of the paths for software, design, product and operation skills within the organization, which can be updated in real-time as users develop their capabilities.
+A dynamic roadmap-based solution could be an effective way to address the skill-tracking problem in big companies. This approach would involve creating visual representations of the paths for software, design, product, and operation skills within the organization, which can be updated in real-time as users develop their capabilities.
 
 ### How It Works
 
@@ -61,7 +61,7 @@ A dynamic roadmap-based solution could be an effective way to address the skill-
 
 - Dynamic Updates: As users acquire new skills or improve existing ones, they move along the relevant paths on the roadmap. These changes are reflected in real-time, ensuring that the roadmaps always provide an accurate picture of the company's skill landscape.
 
-- Personalized Learning Plans: Based on the roadmaps, personalized learning plans can be created for each user. These plans guide them along their chosen paths, helping them to close skill gaps and progress towards their career goals.
+- Personalized Learning Plans: Based on the roadmaps, personalized learning plans can be created for each user. These plans guide them along their chosen paths, helping them to close skill gaps and progress toward their career goals.
 
 ### Benefits
 
