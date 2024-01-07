@@ -7,5 +7,6 @@ This file contains the steps used to create this software engineering project.
 - [Project Scope](./project_scope.md)
 - [Technical Project Scope](./technical_project_scope.md)
 - [Key Performance Indicators (KPIs)](./kpis.md)
+- [Industry Trends](./industry_trends.md)
 - [Team](./team.md)
 
