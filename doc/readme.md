@@ -6,5 +6,6 @@ This file contains the steps used to create this software engineering project.
 - [Target Audience](./target_audience.md)
 - [Project Scope](./project_scope.md)
 - [Technical Project Scope](./technical_project_scope.md)
+- [Key Performance Indicators (KPIs)](./kpis.md)
 - [Team](./team.md)
 
