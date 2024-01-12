@@ -27,6 +27,7 @@ Each member of the team brings a unique set of skills, and they collaborate clos
 ### Development Team
 - [@danielfmf25](https://www.github.com/danielfmf25)
 - [@EmilioCanton](https://www.github.com/EmilioCanton)
+- [@JessRogeliana](https://github.com/JessRogeliana)
 - [@ViniciusLAAraujo](https://www.github.com/ViniciusLAAraujo)
 
 ### Supervisor 
