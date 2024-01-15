@@ -75,3 +75,14 @@ A dynamic roadmap-based solution offers several benefits:
 - Real-Time Tracking: Dynamic updates ensure that the roadmaps always reflect the most current state of skills within the company.
 
 In conclusion, a dynamic roadmap-based solution could provide an effective, user-friendly way to tackle the skill-tracking problem in big companies, fostering a culture of continuous learning and career development.
+
+## Team Review
+### [Understand Business Needs](./business_needs.md)
+- The document in question illustrates the conclusions reached after understanding the business needs, also encompassing other topics outlined in the [visual representation of the project roadmap](https://roadmap.sh/r?id=65889a0f54b577105138dda8).
+
+### [Identify the Stakeholders](readme.md) 
+- The stakeholder has been defined as the same person holding the roles of Tech Lead, Product Owner, and Scrum Master, with this individual being [Malaguth](https://github.com/Malaguth).
+
+### [Define Project Objectives](./business_needs.md)
+
+- The objectives are encompassed in the solution to the problem, as well as in what we wish to achieve.

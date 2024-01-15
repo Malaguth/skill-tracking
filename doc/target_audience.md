@@ -51,3 +51,9 @@ Individuals looking to switch careers can use the software to map out the new sk
 Organizations that offer professional development programs, such as online course providers or industry certification bodies, could also benefit from the software. They can use it to align their offerings with current skill trends and track the progress of their learners.
 
 In conclusion, a skill-tracking software solution can serve a broad audience beyond just internal employees. By helping individuals manage their skills effectively, it can support their career growth and enhance their employability.
+
+## Team Review
+
+### [Identify Target Audience](https://github.com/Malaguth/skill-tracking/blob/3fd4d9c23f7e17229d2cc4acfb1dcc1d18ae8eca/doc/target_audience.md)
+
+- The target audience has been defined with the aim of guiding decisions and actions to ensure that they are completely satisfied.
