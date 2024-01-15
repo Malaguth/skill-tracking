@@ -21,3 +21,9 @@ This module will involve creating real-time updating mechanisms. As users acquir
 ## Personalized Learning Plans Module
 
 This module will involve developing algorithms to create personalized learning plans for each user based on their position on the roadmap. These plans should guide users along their chosen paths, helping them close skill gaps and progress toward their career goals.
+
+## Team Review
+
+### [Define Project Scope](https://github.com/Malaguth/skill-tracking/blob/3fd4d9c23f7e17229d2cc4acfb1dcc1d18ae8eca/doc/technical_project_scope.md)
+
+The project scope has been defined and will be crucial to delineate the actions taken to encompass the committed delivery, as well as to assist in defining and allocating the necessary time for it.

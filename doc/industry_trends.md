@@ -29,3 +29,9 @@ With increasing concerns about data privacy and security, it's crucial to ensure
 ## Remote Work and Learning
 
 The shift towards remote work has accelerated due to the COVID-19 pandemic, making remote learning and skill development more important than ever. The software should cater to this trend, allowing users to track and develop their skills remotely.
+
+## Team Review
+
+### [Understand Industry Trends](https://github.com/Malaguth/skill-tracking/blob/3fd4d9c23f7e17229d2cc4acfb1dcc1d18ae8eca/doc/industry_trends.md)
+
+- Crucial to utilize technologies and tools compatible with the current moment, aiming to facilitate both communications and the understanding and production of the project.
