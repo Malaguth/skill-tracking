@@ -1,6 +1,6 @@
 # Business needs
 
-The first step to defining the problem is understanding the business needs. This includes understanding what the business does, its goals, and how the proposed software can help achieve them. It's important to clearly understand the business context to ensure that the software solution aligns with the business objectives.
+The first step to defining the problem is understanding the business needs. This includes understanding what the business does, its goals, and how the proposed software can help achieve them. It's important to clearly understand the business context to ensure that the software solution aligns with the business objectives. Such things will be demonstrated below.
 
 ## The problem
 
@@ -48,7 +48,7 @@ By achieving these goals, a skill-tracking software solution can help big compan
 
 ## Solution - Dynamic Roadmaps
 
-A dynamic roadmap-based solution could be an effective way to address the skill-tracking problem in big companies. This approach would involve creating visual representations of the paths for software, design, product, and operation skills within the organization, which can be updated in real-time as users develop their capabilities.
+A dynamic roadmap-based solution could be an effective way to address the skill-tracking problem in big companies. This approach would involve creating visual representations of the paths for software, design, product, and operation skills within the organization, which can be updated in real-time as users develop their capabilities. The objectives are encompassed in the solution to the problem, as well as in what we wish to achieve.
 
 ### How It Works
 
@@ -77,12 +77,5 @@ A dynamic roadmap-based solution offers several benefits:
 In conclusion, a dynamic roadmap-based solution could provide an effective, user-friendly way to tackle the skill-tracking problem in big companies, fostering a culture of continuous learning and career development.
 
 ## Team Review
-### [Understand Business Needs](./business_needs.md)
-- The document in question illustrates the conclusions reached after understanding the business needs, also encompassing other topics outlined in the [visual representation of the project roadmap](https://roadmap.sh/r?id=65889a0f54b577105138dda8).
-
 ### [Identify the Stakeholders](readme.md) 
 - The stakeholder has been defined as the same person holding the roles of Tech Lead, Product Owner, and Scrum Master, with this individual being [Malaguth](https://github.com/Malaguth).
-
-### [Define Project Objectives](./business_needs.md)
-
-- The objectives are encompassed in the solution to the problem, as well as in what we wish to achieve.

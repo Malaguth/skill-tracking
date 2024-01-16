@@ -1,6 +1,6 @@
 # Target Audience for Skill-Tracking Software
 
-The target audience for a skill-tracking software solution can be broadly categorized into two main groups:
+The target audience is intended to comprehend the most prevalent users of this project, facilitating decisions that are specifically tailored to address their needs. In the context of the skill-tracking software solution, the target audience can be broadly classified into two primary groups:
 
 ## Business Leaders and HR Professionals
 
@@ -51,9 +51,3 @@ Individuals looking to switch careers can use the software to map out the new sk
 Organizations that offer professional development programs, such as online course providers or industry certification bodies, could also benefit from the software. They can use it to align their offerings with current skill trends and track the progress of their learners.
 
 In conclusion, a skill-tracking software solution can serve a broad audience beyond just internal employees. By helping individuals manage their skills effectively, it can support their career growth and enhance their employability.
-
-## Team Review
-
-### [Identify Target Audience](https://github.com/Malaguth/skill-tracking/blob/3fd4d9c23f7e17229d2cc4acfb1dcc1d18ae8eca/doc/target_audience.md)
-
-- The target audience has been defined with the aim of guiding decisions and actions to ensure that they are completely satisfied.
