@@ -30,6 +30,7 @@ Each member of the team brings a unique set of skills, and they collaborate clos
 - [@EmilioCanton](https://www.github.com/EmilioCanton)
 - [@JessRogeliana](https://github.com/JessRogeliana)
 - [@ViniciusLAAraujo](https://www.github.com/ViniciusLAAraujo)
+- [@BiaFranco](https://www.github.com/biafranco)
 
 ### Supervisors
 
