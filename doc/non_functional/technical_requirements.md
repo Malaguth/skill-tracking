@@ -21,6 +21,7 @@ Remember, these priorities can change as the project progresses from an MVP to a
 ## Performance
 
 1. **Response Time:** The system should respond to user requests within 2 seconds under normal load conditions.
+
 2. **Throughput:** The system should be able to handle multiple concurrent users without any significant degradation in performance.
 
 ## Scalability
@@ -34,7 +35,8 @@ Remember, these priorities can change as the project progresses from an MVP to a
 
 ## Usability
 
-7. **User Experience:** The system should be intuitive and easy to use, even for non-technical users. It should provide clear error messages and guidance to users when needed.
+7. **User Experience:** The system should be intuitive and easy to use, even for non-technical 
+users. It should provide clear error messages and guidance to users when needed.
 8. **Accessibility:** The system should comply with accessibility standards to ensure it is usable by people with a range of abilities.
 
 ## Maintainability
@@ -65,7 +67,7 @@ Remember, these priorities can change as the project progresses from an MVP to a
 
 ## User Adoption
 
-17. **-Friendliness:** The system should be intuitive and easy to use to encourage user adoption.
+17. **Friendliness:** The system should be intuitive and easy to use to encourage user adoption.
 
 ## Technical Debt Management
 
@@ -74,5 +76,7 @@ Remember, these priorities can change as the project progresses from an MVP to a
 ## Training
 
 19. **Ease of Learning:** The system should be easy to learn and use, minimizing the need for extensive training.
+
+##
 
 These non-functional requirements focus on the unique challenges faced by small projects, helping to ensure that the project is delivered on time, within budget, and meets the needs of its users while maintaining a high standard of quality.
