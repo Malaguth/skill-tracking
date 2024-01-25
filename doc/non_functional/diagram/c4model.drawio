@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e" pages="3">
     <diagram name="C1 model" id="yP3WF3xp7BAWF4jeJAyD">
-        <mxGraphModel dx="3489" dy="2067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3470" dy="2067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -85,7 +85,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="C2 model (MVP)" id="SWYgJ27Vz_VIOfEisR7J">
-        <mxGraphModel dx="4203" dy="2212" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3883" dy="2067" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="LXNYsZAQUB4Kg79s4SmB-0"/>
                 <mxCell id="LXNYsZAQUB4Kg79s4SmB-1" parent="LXNYsZAQUB4Kg79s4SmB-0"/>
@@ -136,7 +136,7 @@
                         <mxGeometry x="-740" y="-397" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Type="Single-Page Application" c4Container="Container" c4Technology="Functional React" c4Description="Roadmap web page containing all functionality to users in their browser." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dG4oGv1b2HfCbnSVpCFT-10">
+                <object placeholders="1" c4Type="Single-Page Application" c4Container="Container" c4Technology="React" c4Description="Roadmap web page containing all functionality to users in their browser." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Type%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Container%:&amp;nbsp;%c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="dG4oGv1b2HfCbnSVpCFT-10">
                     <mxCell style="shape=mxgraph.c4.webBrowserContainer2;whiteSpace=wrap;html=1;boundedLbl=1;rounded=0;labelBackgroundColor=none;strokeColor=#118ACD;fillColor=#23A2D9;strokeColor=#118ACD;strokeColor2=#0E7DAD;fontSize=12;fontColor=#ffffff;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.5,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];resizable=0;strokeWidth=2;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="LXNYsZAQUB4Kg79s4SmB-1" vertex="1">
                         <mxGeometry x="-1170" y="-754" width="240" height="160" as="geometry"/>
                     </mxCell>
@@ -146,7 +146,7 @@
                         <mxGeometry x="-1767" y="-1064" width="1773" height="813" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="API application" c4Type="Container" c4Technology="e.g. SpringBoot" c4Description="Provides all roadmaps functionality via JSON/HTTPS API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5cg3aInFyl-BAyfmOdwB-1">
+                <object placeholders="1" c4Name="API application" c4Type="Container" c4Technology="Node js" c4Description="Provides all roadmaps functionality via JSON/HTTPS API" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#E6E6E6&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="5cg3aInFyl-BAyfmOdwB-1">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;labelBackgroundColor=none;fillColor=#23A2D9;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0E7DAD;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];strokeWidth=2;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="LXNYsZAQUB4Kg79s4SmB-1" vertex="1">
                         <mxGeometry x="-740" y="-734" width="240" height="120" as="geometry"/>
                     </mxCell>
@@ -204,7 +204,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="C3 model (MVP)" id="1QE1TQMiCPRZIgYBIdSG">
-        <mxGraphModel dx="5305" dy="2718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="5793" dy="2718" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="39T0jwed-VUf1nxWEC5t-0"/>
                 <mxCell id="39T0jwed-VUf1nxWEC5t-1" parent="39T0jwed-VUf1nxWEC5t-0"/>
@@ -352,22 +352,22 @@
                         <mxGeometry x="-1150.5" y="-31" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="User Controller" c4Type="Component" c4Technology="Kotlin" c4Description="Contains User endpoints. Each Controller is associated with a route and calls the services to execute the operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-6">
+                <object placeholders="1" c4Name="User Controller" c4Type="Component" c4Technology="Node.js" c4Description="Contains User endpoints. Each Controller is associated with a route and calls the services to execute the operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-6">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-610" y="-734" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="User Service" c4Type="Component" c4Technology="Kotlin" c4Description="Contains the logic for execute the User operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-7">
+                <object placeholders="1" c4Name="User Service" c4Type="Component" c4Technology="Node.js" c4Description="Contains the logic for execute the User operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-7">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-610" y="-502" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="User Repository" c4Type="Component" c4Technology="Kotlin" c4Description="Contains the operations to handle the User models. " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-8">
+                <object placeholders="1" c4Name="User Repository" c4Type="Component" c4Technology="Node.js" c4Description="Contains the operations to handle the User models. " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-8">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-490" y="-271" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="User Authentication Client" c4Type="Component" c4Technology="Kotlin" c4Description="Contains the logic for execute the application integration for User authentication." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-9">
+                <object placeholders="1" c4Name="User Authentication Client" c4Type="Component" c4Technology="Node.js" c4Description="Contains the logic for execute the application integration for User authentication." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="a1scxqDBa0EgdVLqmRlR-9">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-610" y="-38" width="240" height="120" as="geometry"/>
                     </mxCell>
@@ -448,17 +448,17 @@
                         </mxGeometry>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="Roadmap Controller" c4Type="Component" c4Technology="Kotlin" c4Description="Contains Roadmap endpoints. Each Controller is associated with a route and calls the services to execute the operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="NK9fN4aMyx6G2WWls0hk-0">
+                <object placeholders="1" c4Name="Roadmap Controller" c4Type="Component" c4Technology="Node.js" c4Description="Contains Roadmap endpoints. Each Controller is associated with a route and calls the services to execute the operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="NK9fN4aMyx6G2WWls0hk-0">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-196" y="-734" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="Roadmap Service" c4Type="Component" c4Technology="Kotlin" c4Description="Contains the logic for execute the Roadmap operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="NK9fN4aMyx6G2WWls0hk-1">
+                <object placeholders="1" c4Name="Roadmap Service" c4Type="Component" c4Technology="Node.js" c4Description="Contains the logic for execute the Roadmap operations." label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="NK9fN4aMyx6G2WWls0hk-1">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-196" y="-502" width="240" height="120" as="geometry"/>
                     </mxCell>
                 </object>
-                <object placeholders="1" c4Name="Roadmap Repository" c4Type="Component" c4Technology="Kotlin" c4Description="Contains the operations to handle the Roadmap models. " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="NK9fN4aMyx6G2WWls0hk-2">
+                <object placeholders="1" c4Name="Roadmap Repository" c4Type="Component" c4Technology="Node.js" c4Description="Contains the operations to handle the Roadmap models. " label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%: %c4Technology%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="NK9fN4aMyx6G2WWls0hk-2">
                     <mxCell style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#63BEF2;fontColor=#ffffff;align=center;arcSize=6;strokeColor=#2086C9;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" parent="39T0jwed-VUf1nxWEC5t-1" vertex="1">
                         <mxGeometry x="-196" y="-271" width="240" height="120" as="geometry"/>
                     </mxCell>
@@ -516,7 +516,7 @@
         </mxGraphModel>
     </diagram>
     <diagram name="C2 model (Extendend)" id="Rc9xetv_x3uNup-HLOPU">
-        <mxGraphModel dx="4646" dy="1614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="5032" dy="1614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="LymcMFLWiHbA0FvBbtKu-0"/>
                 <mxCell id="LymcMFLWiHbA0FvBbtKu-1" parent="LymcMFLWiHbA0FvBbtKu-0"/>
