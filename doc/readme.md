@@ -17,4 +17,7 @@
 
 - [Technical Project Scope](./non_functional/technical_project_scope.md): A short description of the technical steps of the project;
 - [Technical Requirements](./non_functional/technical_requirements.md): A descriptions of the prioritized aspects for non-functional requirements of the project;
+
+## Big picture
+
 - [C4 model](./non_functional/c4_model.md): The technical architecture of the project as a C4 model;
