@@ -20,4 +20,4 @@
 
 ## Big picture
 
-- [C4 model](./non_functional/c4_model.md): The technical architecture of the project as a C4 model;
+- [C4 model](./big_picture/c4_model.md): The technical architecture of the project as a C4 model;
