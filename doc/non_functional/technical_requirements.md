@@ -18,6 +18,8 @@ Remember, these priorities can change as the project progresses from an MVP to a
 
 # Non-Functional Requirements description
 
+The non-functional requirements below focus on the unique challenges faced by small projects, helping to ensure that the project is delivered on time, within budget, and meets the needs of its users while maintaining a high standard of quality.
+
 ## Performance
 
 1. **Response Time:** The system should respond to user requests within 2 seconds under normal load conditions.
@@ -76,7 +78,3 @@ users. It should provide clear error messages and guidance to users when needed.
 ## Training
 
 19. **Ease of Learning:** The system should be easy to learn and use, minimizing the need for extensive training.
-
-##
-
-These non-functional requirements focus on the unique challenges faced by small projects, helping to ensure that the project is delivered on time, within budget, and meets the needs of its users while maintaining a high standard of quality.
