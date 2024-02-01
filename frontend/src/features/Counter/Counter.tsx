@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Button from '../components/Button';
+import * as Styled from './Counter.styles';
 
-const CounterFeature: React.FC = () => {
+const Counter: React.FC = () => {
   const [count, setCount] = useState(0);
 
   const increment = () => {
@@ -15,10 +15,10 @@ const CounterFeature: React.FC = () => {
   return (
     <div>
       <h2>Counter: {count}</h2>
-      <Button label="Increment" onClick={increment} />
-      <Button label="Decrement" onClick={decrement} />
+      <Styled.IncrementButton label="Increment" onClick={increment} />
+      <Styled.DecrementButton label="Decrement" onClick={decrement} />
     </div>
   );
 };
 
-export default CounterFeature;
+export default Counter;
