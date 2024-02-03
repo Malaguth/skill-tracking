@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import DefaultButton from '../../components/Buttons/DefaultButton';
+import DefaultButton from '../../components/ui/Buttons/DefaultButton/DefaultButton'
 
 export const IncrementButton = styled(DefaultButton)`
   && {
