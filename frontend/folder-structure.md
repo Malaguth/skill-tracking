@@ -31,8 +31,8 @@
   - `modules/`: Directory for business logic modules, separated by responsibility.
     - `{Module}(example: User)/`: Subdirectory for the user module.
       - `client.ts`: Client module handling calls related to the module.
-      - `service.ts`: Service module responsible for calling clients, passing params, and applying some logic.
-      - `mapper.ts`: Mapper module transforming service responses to types and vice versa.
+      - `service.ts`: Service module responsible for calling clients, passing params, applying some logic to map responses and requests via types.
+      - `mapper.ts`: Mapper module transforming client responses to types and vice versa.
       - `types.ts`: Types module representing data in the way it's known by the app.
   
   - `App.tsx`: The main React component file. This is where the structure and behavior of the main application are defined.
