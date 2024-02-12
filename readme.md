@@ -10,7 +10,7 @@ This project is maintained using the Scrum method with two (2) weeks sprints. Th
 
 The supervisor will represent the Tech Lead, Product Owner, Scrum Master, and Stakeholder.
 
-[Know more about our team](./doc/team.md)
+[Know more about our team](./doc/operation/team.md)
 
 ## The Product
 The product itself is inspired by the repository [roadmap.sh](https://roadmap.sh/) 
