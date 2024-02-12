@@ -15,3 +15,10 @@ export const mapShuffleDeckResponseToDeck = ({shuffleDeck}:{shuffleDeck: Shuffle
     remaining: shuffleDeck.remaining
   };
 };
+
+export const mapUpdatedDeckFromDraw = ({drawCards}:{drawCards: DrawCardResponse}): Deck => {
+  return {
+    deck_id: drawCards.deck_id,
+    remaining: drawCards.remaining
+  };
+};

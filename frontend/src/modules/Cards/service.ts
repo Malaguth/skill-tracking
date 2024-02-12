@@ -1,6 +1,6 @@
 import { shuffleDeck, drawCard } from '../Cards/client';
 import {Card, Deck} from '../Cards/types'; 
-import { mapDrawCardResponseToCard, mapShuffleDeckResponseToDeck } from './mapper';
+import { mapDrawCardResponseToCard, mapShuffleDeckResponseToDeck, mapUpdatedDeckFromDraw } from './mapper';
 
 export const shuffleDeckService = async ({deckCount}:{deckCount: number}): Promise<Deck> => {
   try {
@@ -11,9 +11,12 @@ export const shuffleDeckService = async ({deckCount}:{deckCount: number}): Promi
 
 };
 
-export const drawACardService = async ({deckId}:{deckId: string}): Promise<Card> => {
+export const drawACardService = async ({ deckId }: { deckId: string }): Promise<{ card: Card; deck: Deck }> => {
   try {
-     return mapDrawCardResponseToCard({drawCards:await drawCard({deckId:deckId, numOfCards:1})})[0];
+    const cards = await drawCard({ deckId: deckId, numOfCards: 1 });
+    const drawnCard = mapDrawCardResponseToCard({ drawCards: cards })[0];
+    const updatedDeck = mapUpdatedDeckFromDraw({ drawCards: cards });
+    return { card: drawnCard, deck: updatedDeck };
   } catch (error) {
     throw new Error('Failed to draw card');
   }

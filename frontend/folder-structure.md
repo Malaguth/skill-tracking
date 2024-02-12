@@ -5,6 +5,7 @@
   - `package.json`: The package manager configuration file. It contains metadata about the project and its dependencies, as well as scripts to run various tasks, like building the project or starting a development server.
   - `pnpm-lock.yaml`: This is the configuration file for `pnpm`. It contains information about the exact versions of dependencies installed, similar to `package-lock.json` used by npm or `yarn.lock` used by Yarn.
   - `src/`: The source code directory.
+  - `.env`: Secure file that stores any type of sensible data like keys, urls, paths, etc.
   - `tsconfig.json`: The TypeScript configuration file. It contains settings and options for the TypeScript compiler.
   - `tsconfig.node.json`: A TypeScript configuration file specifically for Node.js.
   - `vite.config.ts`: The Vite configuration file. It allows you to customize the behavior of Vite during development and production. This file can include settings for plugins, server configurations, and more.
@@ -12,16 +13,17 @@
   - `.eslintrc.cjs`: This file is the configuration file for ESLint, a linter tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
 
 - **src/:**
-  - `assets/`: Directory for storing static assets used in the project.
+  - `assets/`: Directory for storing assets used in the project.
+    - `getAsset`: Function that retrive assests paths via asset name
     - `icons/`: Folder to store icons.
   - `components/`: Directory containing modular, reusable building blocks that encapsulate specific UI elements or functionalities. 
     - `ui/`: Subdirectory for components dedicated to user interface.
       - `{Broader-Category|Component}(example: Buttons)/`: Subdirectory category x components.
-        - `{Component}(example: DefaultButton)/`: Subdirectory for the component.
+        - `{Component}(example: DefaultButton | DefaultIcon)/`: Subdirectory for the component.
           - `{Component}.styles.ts`: Styles for the default component.
           - `{Component}.tsx`: Implementation of the component.
   - `features/`: Directory containing specialized components that encapsulate specific features or functionalities of the application.
-    - `{Broader-Category|Feature}(example: Counter)/`: Subdirectory for a counter feature.
+    - `{Broader-Category|Feature}(example: Counter | DeckOfCards)/`: Subdirectory for a counter feature.
       - `{Feature}.styles.ts`: Styles for the feature.
       - `{Feature}.tsx`: Implementation of the feature.
   - `pages/`: Directory containing structures and layouts of a specific page in the application, associated with routes.
@@ -29,7 +31,7 @@
       - `{Page}.styles.ts`: Styles for the page.
       - `{Page}.tsx`: Implementation of the page.
   - `modules/`: Directory for business logic modules, separated by responsibility.
-    - `{Module}(example: User)/`: Subdirectory for the user module.
+    - `{Module}(example: Cards)/`: Subdirectory for the user module.
       - `client.ts`: Client module handling calls related to the module.
       - `service.ts`: Service module responsible for calling clients, passing params, applying some logic to map responses and requests via types.
       - `mapper.ts`: Mapper module transforming client responses to types and vice versa.
