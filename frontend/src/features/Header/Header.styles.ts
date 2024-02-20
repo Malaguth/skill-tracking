@@ -1,24 +1,25 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 export const header = styled.header({
-    display: 'flex',
-    flexDirection: 'row',
+    display:'flex',
+    padding:'0.2rem',
     backgroundColor: '#1c9bbc',
-    alignItems: 'center',
-    gap: 20,
-    paddingRight: 10,
-    paddingLeft: 10
 });
 
-export const CustomLink = styled(Link)({
+export const ul = styled.ul({
+    display:'flex',
+    gap:'2rem',
+    alignItems:'center'
+});
+
+export const CustomLink = styled(NavLink)({
     display: 'flex',
     flexDirection: 'row',
     alignItems: 'center',
     textDecoration: 'none',
     color: 'inherit',
-
-    '&:visited, &:active': {
-        color: 'inherit',
+    '&.active': {
+        color: '#ffffff'
     }
 });

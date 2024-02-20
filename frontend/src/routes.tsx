@@ -1,13 +1,27 @@
-import { Route, Routes } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/HomePage/HomePage';
-import CardPage from './pages/CardPage/CardPage';
+import DecksPage from './pages/DecksPage/DecksPage';
+import MainNavigation from './features/MainNavigation/MainNavigation';
+
+export enum RoutesEnum {
+  ROOT = "/",
+  HOME = "",
+  DECK = "deck-of-cards"
+}
+
+const router = createBrowserRouter([
+  {
+    path:RoutesEnum.ROOT, 
+    element:<MainNavigation/>, 
+    children:[
+    {index: true, element:<HomePage/>},
+    {path:RoutesEnum.DECK, element: <DecksPage/>}
+  ]},
+])
 
 const AppRoutes: React.FC = () => {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/deck-of-cards" element={<CardPage />}/>
-    </Routes>
+    <RouterProvider router={router} />
   );
 };
 
