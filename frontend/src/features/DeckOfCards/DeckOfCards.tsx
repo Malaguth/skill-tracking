@@ -3,6 +3,7 @@ import DefaultButton from '../../components/ui/Buttons/DefaultButton/DefaultButt
 import DefaultIcon from '../../components/ui/DefaultIcon/DefaultIcon';
 import { shuffleDeckService, drawACardService } from '../../modules/Cards/service';
 import { Card, Deck } from '../../modules/Cards/types';
+import * as TEXT from '../../assets/strings';
 
 
 const DeckOfCards: React.FC = () => {
@@ -44,16 +45,16 @@ const DeckOfCards: React.FC = () => {
 
   return (
     <div>
-      <h2>Deck</h2>
+      <h2>{TEXT.DECK}</h2>
       <DefaultIcon imagePath="deck" size="medium" />
       {deck && (
         <div>
-          <h3>Remaining cards: {deck.remaining}</h3>
+          <h3>{TEXT.REMAINING_CARDS}{deck.remaining}</h3>
         </div>
       )}
       <div style={{ flexDirection: 'row' }}>
-        <DefaultButton label="Shuffle Deck" onClick={handleShuffleDeck} />
-        <DefaultButton label="Draw" onClick={handleDrawCard} />
+        <DefaultButton label={TEXT.SHUFFLE_DECK} onClick={handleShuffleDeck} />
+        <DefaultButton label={TEXT.DRAW} onClick={handleDrawCard} />
       </div>
       {lastCard && <DefaultIcon imagePath={lastCard.image} size="small"  external={true}/>}
     </div>

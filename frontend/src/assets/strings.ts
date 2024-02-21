@@ -1,1 +1,10 @@
-export const Counter = "Counter: "; 
+export const HOME_PAGE = "Home Page";
+export const COUNTER = "Counter: "; 
+export const DECK = "Deck: "; 
+export const REMAINING_CARDS = "Remaining cards: ";
+export const SHUFFLE_DECK = "Shuffle Deck";
+export const DRAW = "Draw";
+export const SKILL_TRACK_TITTLE = "Skill-Track front draft";
+export const DECK_OF_CARDS = "Deck of Cards";
+export const INCREMENT = "Increment";
+export const DECREMENT = "Decrement";
