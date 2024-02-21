@@ -7,7 +7,7 @@ const cardClient = axios.create({
   baseURL,
 });
 
-export const shuffleDeck = async ({deckCount}:{deckCount: number}): Promise<ShuffleDeckResponse> => {
+const shuffleDeck = async ({deckCount}:{deckCount: number}): Promise<ShuffleDeckResponse> => {
   try {
     const response = await cardClient.get(`${import.meta.env.VITE_EXAMPLE_ROUTE_1 as string}=${deckCount}`);
     return response.data;
@@ -16,7 +16,7 @@ export const shuffleDeck = async ({deckCount}:{deckCount: number}): Promise<Shuf
   }
 };
 
-export const drawCard = async ({deckId,numOfCards}:{deckId: string,numOfCards:number}): Promise<DrawCardResponse> => {
+const drawCard = async ({deckId,numOfCards}:{deckId: string,numOfCards:number}): Promise<DrawCardResponse> => {
   try {
     const response = await cardClient.get(`/${deckId}${import.meta.env.VITE_EXAMPLE_ROUTE_2 as string}=${numOfCards}`);
     return response.data;
@@ -24,3 +24,8 @@ export const drawCard = async ({deckId,numOfCards}:{deckId: string,numOfCards:nu
     throw new Error('Failed to draw card');
   }
 };
+
+export const deckClient = {
+  shuffleDeck,
+  drawCard
+}

@@ -1,19 +1,19 @@
-import { shuffleDeck, drawCard } from '../Cards/client';
+import { deckClient} from '../Cards/client';
 import {Card, Deck} from '../Cards/types'; 
 import { mapDrawCardResponseToCard, mapShuffleDeckResponseToDeck, mapUpdatedDeckFromDraw } from './mapper';
 
-export const shuffleDeckService = async ({deckCount}:{deckCount: number}): Promise<Deck> => {
+const shuffleDeck = async ({deckCount}:{deckCount: number}): Promise<Deck> => {
   try {
-    return mapShuffleDeckResponseToDeck({shuffleDeck:await shuffleDeck({deckCount: deckCount})}) ;
+    return mapShuffleDeckResponseToDeck({shuffleDeck:await deckClient.shuffleDeck({deckCount: deckCount})}) ;
   } catch (error) {
     throw new Error('Failed to shuffle deck');
   }
 
 };
 
-export const drawACardService = async ({ deckId }: { deckId: string }): Promise<{ card: Card; deck: Deck }> => {
+const drawACard = async ({ deckId }: { deckId: string }): Promise<{ card: Card; deck: Deck }> => {
   try {
-    const cards = await drawCard({ deckId: deckId, numOfCards: 1 });
+    const cards = await deckClient.drawCard({ deckId: deckId, numOfCards: 1 });
     const drawnCard = mapDrawCardResponseToCard({ drawCards: cards })[0];
     const updatedDeck = mapUpdatedDeckFromDraw({ drawCards: cards });
     return { card: drawnCard, deck: updatedDeck };
@@ -21,3 +21,8 @@ export const drawACardService = async ({ deckId }: { deckId: string }): Promise<
     throw new Error('Failed to draw card');
   }
 };
+
+export const deckService = {
+  shuffleDeck,
+  drawACard
+}

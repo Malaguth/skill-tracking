@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import DefaultButton from '../../components/ui/Buttons/DefaultButton/DefaultButton';
 import DefaultIcon from '../../components/ui/DefaultIcon/DefaultIcon';
-import { shuffleDeckService, drawACardService } from '../../modules/Cards/service';
+import { deckService } from '../../modules/Cards/service';
 import { Card, Deck } from '../../modules/Cards/types';
 import * as TEXT from '../../assets/strings';
 
@@ -13,8 +13,8 @@ const DeckOfCards: React.FC = () => {
   useEffect(() => {
     async function fetchInitialDeck() {
       try {
-        const initialDeck = await shuffleDeckService({ deckCount: 1 });
-        setDeck(initialDeck);
+        const initialDeck = await deckService.shuffleDeck({ deckCount: 1 });
+        setDeck(initialDeck); 
       } catch (error) {
         console.error('Failed to fetch initial deck:', error);
       }
@@ -24,7 +24,7 @@ const DeckOfCards: React.FC = () => {
 
   const handleShuffleDeck = async () => {
     try {
-      const shuffledDeck = await shuffleDeckService({ deckCount: 1 });
+      const shuffledDeck = await deckService.shuffleDeck({ deckCount: 1 });
       setDeck(shuffledDeck);
       setLastCard(null);
     } catch (error) {
@@ -35,7 +35,7 @@ const DeckOfCards: React.FC = () => {
   const handleDrawCard = async () => {
     if (!deck) return;
     try {
-      const { card, deck: updatedDeck } = await drawACardService({ deckId: deck.deck_id });
+      const { card, deck: updatedDeck } = await deckService.drawACard({ deckId: deck.deck_id });
       setDeck(updatedDeck);
       setLastCard(card);
     } catch (error) {
