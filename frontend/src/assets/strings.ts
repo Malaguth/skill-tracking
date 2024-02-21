@@ -8,3 +8,5 @@ export const SKILL_TRACK_TITTLE = "Skill-Track front draft";
 export const DECK_OF_CARDS = "Deck of Cards";
 export const INCREMENT = "Increment";
 export const DECREMENT = "Decrement";
+export const CARD = "Card: ";
+export const NOT_FOUND = "Page Not Found";

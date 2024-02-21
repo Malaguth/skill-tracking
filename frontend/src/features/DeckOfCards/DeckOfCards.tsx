@@ -4,6 +4,7 @@ import DefaultIcon from '../../components/ui/DefaultIcon/DefaultIcon';
 import { deckService } from '../../modules/Cards/service';
 import { Card, Deck } from '../../modules/Cards/types';
 import * as TEXT from '../../assets/strings';
+import { Link } from 'react-router-dom';
 
 
 const DeckOfCards: React.FC = () => {
@@ -56,7 +57,7 @@ const DeckOfCards: React.FC = () => {
         <DefaultButton label={TEXT.SHUFFLE_DECK} onClick={handleShuffleDeck} />
         <DefaultButton label={TEXT.DRAW} onClick={handleDrawCard} />
       </div>
-      {lastCard && <DefaultIcon imagePath={lastCard.image} size="small"  external={true}/>}
+      {lastCard && <Link to={lastCard.code}><DefaultIcon imagePath={lastCard.image} size="small"  external={true}/></Link>}
     </div>
   );
 };
