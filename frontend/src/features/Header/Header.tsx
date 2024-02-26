@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Styled from './Header.styles';
 import DefaultIcon from '../../components/ui/DefaultIcon';
-import { RoutesEnum } from '../../Routes';
+import { RoutesEnum } from '../../routes';
 import { useCounter } from '../../contexts/CounterContext/CounterContext';
 import * as TEXT from '../../assets/strings';
 
