@@ -1,7 +1,7 @@
 import React from 'react';
 import * as Styled from './DefaultButton.styles';
 
-interface IButtonProps {
+type IButtonProps = {
   label: string;
   onClick: () => void;
 }
