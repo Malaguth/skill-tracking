@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/Header';
+import Header from '../Header';
 import { Outlet } from 'react-router-dom';
 import { CounterProvider } from '../../contexts/CounterContext/CounterContext';
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaultIcon from '../../components/ui/DefaultIcon/DefaultIcon';
+import DefaultIcon from '../../components/ui/DefaultIcon';
 import { useParams } from 'react-router-dom';
 import * as TEXT from '../../assets/strings'
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import DeckOfCards from '../../features/DeckOfCards/DeckOfCards';
+import DeckOfCards from '../../features/DeckOfCards';
 
 const DecksPage: React.FC = () => {
   return (
