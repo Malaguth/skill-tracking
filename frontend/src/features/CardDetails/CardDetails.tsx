@@ -1,7 +1,8 @@
 import React from 'react';
-import DefaultIcon from '../../components/ui/DefaultIcon/DefaultIcon';
+import DefaultIcon from '../../components/ui/DefaultIcon';
 import { useParams } from 'react-router-dom';
 import * as TEXT from '../../assets/strings'
+import { randomSize } from '../../utils/randUtils';
 
 
 const CardDetails: React.FC = () => {
@@ -11,7 +12,7 @@ const CardDetails: React.FC = () => {
   return (
     <>
     <h2>{TEXT.CARD}{params.cardId}</h2>
-    <DefaultIcon imagePath={`${imgURL}${params.cardId}.png`} size="small"  external={true}/>
+    <DefaultIcon imagePath={`${imgURL}${params.cardId}.png`} size={randomSize()}  external={true}/>
     </>
   );
 };

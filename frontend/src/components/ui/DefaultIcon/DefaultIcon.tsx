@@ -2,7 +2,7 @@ import React from 'react';
 import * as Styled from './DefaultIcon.styles';
 import getAsset from '../../../assets/getAsset';
 
-interface IIconProps {
+type IIconProps = {
   imagePath: string;
   size: 'small' | 'medium' | 'large';
   external?: Boolean

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import DefaultButton from '../../components/ui/Buttons/DefaultButton/DefaultButton';
-import DefaultIcon from '../../components/ui/DefaultIcon/DefaultIcon';
+import DefaultButton from '../../components/ui/Buttons/DefaultButton';
+import DefaultIcon from '../../components/ui/DefaultIcon';
 import { deckService } from '../../modules/Cards/service';
 import { Card, Deck } from '../../modules/Cards/types';
 import * as TEXT from '../../assets/strings';

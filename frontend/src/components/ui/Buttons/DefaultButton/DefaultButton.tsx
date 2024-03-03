@@ -1,6 +1,6 @@
 import * as Styled from "./DefaultButton.styles";
 
-interface IButtonProps {
+type IButtonProps = {
   label: string;
   onClick: () => void;
   variant: "primary" | "secondary" | "tertiary";

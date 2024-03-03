@@ -1,5 +1,5 @@
 import React from 'react';
-import Counter from '../../features/Counter/Counter';
+import Counter from '../../features/Counter';
 import * as TEXT from "../../assets/strings";
 
 const HomePage: React.FC = () => {
