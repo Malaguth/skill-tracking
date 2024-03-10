@@ -1,10 +1,10 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import HomePage from '../pages/HomePage';
-import NotFound from '../pages/NotFound';
-import DecksPage from '../pages/DecksPage';
-import MainNavigation from '../features/MainNavigation';
-import CardDetailsPage from '../pages/CardDetailPage';
-import DeckNavigation from '../features/DeckNavigation';
+import MainNavigation from '../features/MainNavigation/feature';
+import NotFound from '../pages/NotFound/NotFound';
+import HomePage from '../pages/HomePage/page';
+import DeckNavigation from '../features/DeckNavigation/feature';
+import DecksPage from '../pages/DecksPage/page';
+import CardDetailsPage from '../pages/CardDetailPage/page';
 import { RoutesEnum } from './enums';
 
 

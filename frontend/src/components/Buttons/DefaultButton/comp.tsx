@@ -1,12 +1,12 @@
-import * as Styled from "./DefaultButton.styles";
+import * as Styled from "./style";
 
 type IButtonProps = {
   label: string;
   onClick: () => void;
-  variant: "primary" | "secondary" | "tertiary";
+  variant?: "primary" | "secondary" | "tertiary";
 }
 
-const DefaultButton: React.FC<IButtonProps> = ({ label, onClick, variant }) => {
+const DefaultButton: React.FC<IButtonProps> = ({ label, onClick, variant = "primary" }) => {
   return (
     <Styled.Button onClick={onClick} variant={variant}>
       {label}

@@ -1,6 +1,6 @@
 import React from 'react';
-import * as Styled from './DefaultIcon.styles';
-import getAsset from '../../../assets/getAsset';
+import * as Styled from './styles';
+import getAsset from '../../assets/getAsset';
 
 type IIconProps = {
   imagePath: string;

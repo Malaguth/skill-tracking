@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import DefaultButton from "../DefaultButton";
+import DefaultButton from "../comp";
 
 const TEXT_MOCK = "Test Button"
 

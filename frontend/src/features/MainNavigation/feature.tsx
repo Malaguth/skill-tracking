@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '../Header';
 import { Outlet } from 'react-router-dom';
-import { CounterProvider } from '../../contexts/CounterContext/CounterContext';
+import { CounterProvider } from '../../contexts/CounterContext/context';
+import Header from '../Header/feature';
 
 const MainNavigation: React.FC = () => {
   return (

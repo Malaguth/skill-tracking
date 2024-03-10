@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import DefaultButton from '../../components/ui/Buttons/DefaultButton';
-import DefaultIcon from '../../components/ui/DefaultIcon';
+
 import { deckService } from '../../modules/Cards/service';
 import { Card, Deck } from '../../modules/Cards/types';
 import * as TEXT from '../../assets/strings';
 import { Link } from 'react-router-dom';
+import DefaultIcon from '../../components/DefaultIcon/comp';
+import DefaultButton from '../../components/Buttons/DefaultButton/comp';
 
 
 const DeckOfCards: React.FC = () => {

@@ -1,5 +1,5 @@
 import React from 'react';
-import CardDetails from '../../features/CardDetails';
+import CardDetails from '../../features/CardDetails/feature';
 
 
 const CardDetailsPage: React.FC = () => {

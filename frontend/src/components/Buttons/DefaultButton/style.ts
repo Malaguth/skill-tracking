@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-interface ButtonProps {
+type ButtonStyleProps = {
   variant: "primary" | "secondary" | "tertiary";
 }
 
@@ -22,7 +22,7 @@ const variantStyles = {
   },
 };
 
-export const Button = styled.button<ButtonProps>`
+export const Button = styled.button<ButtonStyleProps>`
   margin: 16px;
   border-radius: 8px;
   padding: 8px;

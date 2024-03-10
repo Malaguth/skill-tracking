@@ -1,6 +1,6 @@
-import { useCounter } from "../../contexts/CounterContext/CounterContext";
+import { useCounter } from "../../contexts/CounterContext/context";
 import * as TEXT from "../../assets/strings";
-import DefaultButton from "../../components/ui/Buttons/DefaultButton/DefaultButton";
+import DefaultButton from "../../components/Buttons/DefaultButton/comp";
 
 const Counter: React.FC = () => {
   const { count, increment, decrement } = useCounter();

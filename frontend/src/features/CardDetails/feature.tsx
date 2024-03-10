@@ -1,5 +1,5 @@
 import React from 'react';
-import DefaultIcon from '../../components/ui/DefaultIcon';
+import DefaultIcon from '../../components/DefaultIcon/comp';
 import { useParams } from 'react-router-dom';
 import * as TEXT from '../../assets/strings'
 import { randomSize } from '../../utils/randUtils';

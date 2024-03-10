@@ -1,9 +1,9 @@
 import React from 'react';
-import * as Styled from './Header.styles';
-import DefaultIcon from '../../components/ui/DefaultIcon';
-import { RoutesEnum } from '../../routes';
-import { useCounter } from '../../contexts/CounterContext/CounterContext';
+import * as Styled from './styles';
+import { useCounter } from '../../contexts/CounterContext/context';
 import * as TEXT from '../../assets/strings';
+import DefaultIcon from '../../components/DefaultIcon/comp';
+import { RoutesEnum } from '../../routes/enums';
 
 const Header: React.FC = () => {
 
