@@ -14,7 +14,6 @@
 
 - **src/:**
   - `*`: Marked folders may also implement this types of files:
-    - `index`: Export files used for simplifying paths within the application.
     - `enums`: Files to store enumerables used throughout the application, often used in export enum or object formats.
     - `__tests__`: Folder for functional or unit tests related to their respective components, features, pages or utilities.
       - `{Feature|Component|Page|util}.test.{tsx|ts}`: Test files for the corresponding feature, component, page, or utility.
@@ -24,19 +23,19 @@
     - `icons/`: Folder to store icons.
     - `getAsset`: Function that retrive assests paths via asset name
     - `strings`: Element that store string used in the app as exportable variables
+    - `theme`: Centralized file containing hex colors for project-wide use, promoting easy palette management.
   - `components/`:`*` Directory containing modular, reusable building blocks that encapsulate specific UI elements or functionalities. 
-    - `ui/`: Subdirectory for components dedicated to user interface.
-      - `{Broader-Category|Component}(example: Buttons)/`: Subdirectory category x components.
-        - `{Component}(example: DefaultButton | DefaultIcon)/`: Subdirectory for the component.
-          - `{Component}.styles.ts`: Styles for the default component.
-          - `{Component}.tsx`: Implementation of the component.
+        - `{Broader-Category|Component}(example: Buttons)/`: Subdirectory category x components.
+          - `{Component}(example: DefaultButton | DefaultIcon)/`: Subdirectory for the component.
+            - `styles.ts`: Styles for the default component.
+            - `comp.tsx`: Implementation of the component.
   - `contexts`: Directory for React context providers. This is where context providers are stored, which encapsulate shared state and logic for components within the app. 
     - `{Context}(example: CounterContext)/`: Subdirectory for the context.
-      - `{Context}.tsx`: Implementation of the context.
+      - `context.tsx`: Implementation of the context.
   - `features/`:`*` Directory containing specialized components that encapsulate specific features or functionalities of the application.
     - `{Broader-Category|Feature}(example: Counter | DeckOfCards)/`: Subdirectory for a counter feature.
-      - `{Feature}.styles.ts`: Styles for the feature.
-      - `{Feature}.tsx`: Implementation of the feature.
+      - `styles.ts`: Styles for the feature.
+      - `feature.tsx`: Implementation of the feature.
   - `modules/`: Directory for business logic modules, separated by responsibility.
     - `{Module}(example: Cards)/`: Subdirectory for the user module.
       - `client.ts`: Client module handling calls related to the module.
@@ -45,8 +44,8 @@
       - `types.ts`: Types module representing data in the way it's known by the app.
   - `pages/`:`*` Directory containing structures and layouts of a specific page in the application, associated with routes.
     - `{Page}(example: Home)/`: Subdirectory for the page component.
-      - `{Page}.styles.ts`: Styles for the page.
-      - `{Page}.tsx`: Implementation of the page.
+      - `styles.ts`: Styles for the page.
+      - `page.tsx`: Implementation of he page.
   - `routes/`:`*` Directory containing structures for app routing
     - `enums`: contain enums with router paths
     - `Routes.tsx`: Main app object tree of routes and BrowserRouter implementation
