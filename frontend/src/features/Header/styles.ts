@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import theme from '../../assets/theme';
 
 export const header = styled.header({
     display:'flex',
     padding:'0.2rem',
-    backgroundColor: '#1c9bbc',
+    backgroundColor: theme.colors.tial[100],
 });
 
 export const ul = styled.ul({
@@ -20,6 +21,6 @@ export const CustomLink = styled(NavLink)({
     textDecoration: 'none',
     color: 'inherit',
     '&.active': {
-        color: '#ffffff'
+        color: theme.colors.singleton.white,
     }
 });

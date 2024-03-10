@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import theme from "../../../assets/theme";
 
 type ButtonStyleProps = {
   variant: "primary" | "secondary" | "tertiary";
@@ -6,19 +7,19 @@ type ButtonStyleProps = {
 
 const variantStyles = {
   primary: {
-    backgroundColor: "#1c9bbc",
-    color: "#021c35",
-    borderColor: "#021c35",
+    backgroundColor: theme.colors.tial[100],
+    color: theme.colors.tial[200],
+    borderColor: theme.colors.tial[200],
   },
   secondary: {
-    backgroundColor: "#f0f0f0",
-    color: "#333333",
-    borderColor: "#333333",
+    backgroundColor: theme.colors.gray[50],
+    color:  theme.colors.gray[200],
+    borderColor:  theme.colors.gray[200],
   },
   tertiary: {
-    backgroundColor: "#ff7f50",
-    color: "#ffffff",
-    borderColor: "#ffffff",
+    backgroundColor: theme.colors.orange[100],
+    color: theme.colors.singleton.white,
+    borderColor: theme.colors.singleton.white,
   },
 };
 
