@@ -1,0 +1,57 @@
+- **Root Directory:**
+  - `dist/`: Output directory for compiled and optimized code. Generated when you run the build command, (in this case, `pnpm build` ) in a Vite project. The contents of this directory are what you would deploy to a web server or hosting service.
+  - `node_modules/`: This directory contains all the project's dependencies. It's generated and managed by the package manager (in this case, pnpm) based on the information in package.json.
+  - `src/`: The source code directory.
+  - `.env`: Secure file that stores any type of sensible data like keys, urls, paths, etc.
+  - `index.html`: Main HTML file. Here the "root" div is the target for replacing content during the build process. The main module is loaded into this HTML file. It's the entry point of your application.
+  - `package.json`: The package manager configuration file. It contains metadata about the project and its dependencies, as well as scripts to run various tasks, like building the project or starting a development server.
+  - `pnpm-lock.yaml`: This is the configuration file for `pnpm`. It contains information about the exact versions of dependencies installed, similar to `package-lock.json` used by npm or `yarn.lock` used by Yarn.
+  - `tsconfig.json`: The TypeScript configuration file. It contains settings and options for the TypeScript compiler.
+  - `tsconfig.node.json`: A TypeScript configuration file specifically for Node.js.
+  - `vite.config.ts`: The Vite configuration file. It allows you to customize the behavior of Vite during development and production. This file can include settings for plugins, server configurations, and more.
+  - `.gitignore`: Specifies intentionally untracked files that Git should ignore, typically including `node_modules/`, `dist/`, and other temporary files.
+
+- **src/:**
+  - `*`: Marked folders may also implement this types of files:
+    - `enums`: Files to store enumerables used throughout the application, often used in export enum or object formats.
+    - `__tests__`: Folder for functional or unit tests related to their respective components, features, pages or utilities.
+      - `{Feature|Component|Page|util}.test.{tsx|ts}`: Test files for the corresponding feature, component, page, or utility.
+    - `__mocks__`: Folder for mock implementations used in tests.
+      - `{Feature|Component|Page|util}Mock.ts`: Mock files for the corresponding tests.
+  - `assets/`: Directory for storing assets used in the project.
+    - `icons/`: Folder to store icons.
+    - `getAsset`: Function that retrive assests paths via asset name
+    - `strings`: Element that store string used in the app as exportable variables
+    - `theme`: Centralized file containing hex colors for project-wide use, promoting easy palette management.
+  - `components/`:`*` Directory containing modular, reusable building blocks that encapsulate specific UI elements or functionalities. 
+        - `{Broader-Category|Component}(example: Buttons)/`: Subdirectory category x components.
+          - `{Component}(example: DefaultButton | DefaultIcon)/`: Subdirectory for the component.
+            - `styles.ts`: Styles for the default component.
+            - `comp.tsx`: Implementation of the component.
+  - `contexts`: Directory for React context providers. This is where context providers are stored, which encapsulate shared state and logic for components within the app. 
+    - `{Context}(example: CounterContext)/`: Subdirectory for the context.
+      - `context.tsx`: Implementation of the context.
+  - `features/`:`*` Directory containing specialized components that encapsulate specific features or functionalities of the application.
+    - `{Broader-Category|Feature}(example: Counter | DeckOfCards)/`: Subdirectory for a counter feature.
+      - `styles.ts`: Styles for the feature.
+      - `feature.tsx`: Implementation of the feature.
+  - `modules/`: Directory for business logic modules, separated by responsibility.
+    - `{Module}(example: Cards)/`: Subdirectory for the user module.
+      - `client.ts`: Client module handling calls related to the module.
+      - `service.ts`: Service module responsible for calling clients, passing params, applying some logic to map responses and requests via types.
+      - `mapper.ts`: Mapper module transforming client responses to types and vice versa.
+      - `types.ts`: Types module representing data in the way it's known by the app.
+  - `pages/`:`*` Directory containing structures and layouts of a specific page in the application, associated with routes.
+    - `{Page}(example: Home)/`: Subdirectory for the page component.
+      - `styles.ts`: Styles for the page.
+      - `page.tsx`: Implementation of he page.
+  - `routes/`:`*` Directory containing structures for app routing
+    - `enums`: contain enums with router paths
+    - `Routes.tsx`: Main app object tree of routes and BrowserRouter implementation
+  - `utils/`:`*` Directory for utility functions shared and used in multiple parts of the app.
+    - `{name}Utils.ts`: Utility functions file.
+  
+  - `App.tsx`: The main React component file. This is where the structure and behavior of the main application are defined.
+  - `main.tsx`: Main TypeScript file. It might include the initialization and configuration of the React application.
+  - `vite-env.d.ts`: TypeScript declaration file for Vite-specific environment variables.
+

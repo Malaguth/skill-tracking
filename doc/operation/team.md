@@ -33,6 +33,7 @@ Each member of the team brings a unique set of skills, and they collaborate clos
 - [@BiaFranco](https://www.github.com/biafranco)
 - [@MarcelaSilverio](https://www.github.com/MarcelaSilverio)
 - [@CleiverCoelho](https://github.com/CleiverCoelho)
+- [@JoaoColem](https://github.com/JoaoColem)
 
 ### Supervisors
 
