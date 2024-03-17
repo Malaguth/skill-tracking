@@ -3,7 +3,6 @@
   - `node_modules/`: This directory contains all the project's dependencies. It's generated and managed by the package manager (in this case, pnpm) based on the information in package.json.
   - `src/`: The source code directory.
   - `.env`: Secure file that stores any type of sensible data like keys, urls, paths, etc.
-  - `babel.config.cjs`: Configuration file for Babel. It defines how Babel should transform code, including preset configurations, plugins, and options.
   - `index.html`: Main HTML file. Here the "root" div is the target for replacing content during the build process. The main module is loaded into this HTML file. It's the entry point of your application.
   - `package.json`: The package manager configuration file. It contains metadata about the project and its dependencies, as well as scripts to run various tasks, like building the project or starting a development server.
   - `pnpm-lock.yaml`: This is the configuration file for `pnpm`. It contains information about the exact versions of dependencies installed, similar to `package-lock.json` used by npm or `yarn.lock` used by Yarn.
