@@ -1,11 +1,13 @@
-import { render, screen, fireEvent } from "@testing-library/react";
-import DefaultButton from "../comp";
+import "@testing-library/jest-dom"
+import {render, screen, fireEvent} from "@testing-library/react"
+import {describe, beforeEach, expect, it, vi} from "vitest"
+import DefaultButton from "../comp"
 
 const TEXT_MOCK = "Test Button"
 
 const setupButtonClick = ({buttonText}:{buttonText:string}) => {
     const dfButton = screen.getByText(buttonText)
-    fireEvent.click(dfButton);
+    fireEvent.click(dfButton)
 }
 
 describe('Test DefaultButton', () =>{
@@ -22,16 +24,16 @@ describe('Test DefaultButton', () =>{
     })
 
     it('should log "clicked" when button is clicked',()=>{
-        const consoleSpy = jest.spyOn(console, 'log');
+        const consoleSpy = vi.spyOn(console, 'log')
         setupButtonClick({buttonText:TEXT_MOCK})
-        expect(consoleSpy).toHaveBeenCalledWith("clicked");
-        consoleSpy.mockRestore();
+        expect(consoleSpy).toHaveBeenCalledWith("clicked")
+        consoleSpy.mockRestore()
     })
 
     it('should not log "wrong" when button is clicked',()=>{
-        const consoleSpy = jest.spyOn(console, 'log');
+        const consoleSpy = vi.spyOn(console, 'log')
         setupButtonClick({buttonText:TEXT_MOCK})
-        expect(consoleSpy).not.toHaveBeenCalledWith("wrong");
-        consoleSpy.mockRestore();
+        expect(consoleSpy).not.toHaveBeenCalledWith("wrong")
+        consoleSpy.mockRestore()
     })
 })
